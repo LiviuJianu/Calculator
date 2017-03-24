@@ -27,8 +27,8 @@ struct CalculatorModel {
           "±" : Operation.unaryOperation({ -$0 }),
           "×" : Operation.binaryOperation({ $0 * $1 }),
           "÷" : Operation.binaryOperation({ $0 / $1 }),
-            "+" : Operation.binaryOperation({ $0 + $1 }),
-            "-" : Operation.binaryOperation({ $0 - $1 }),
+          "+" : Operation.binaryOperation({ $0 + $1 }),
+          "-" : Operation.binaryOperation({ $0 - $1 }),
           "=" : Operation.equals
     ]
     
@@ -49,7 +49,7 @@ struct CalculatorModel {
         }
     }
     
-    mutating func performOpertaion(_ symbol: String) {
+    mutating func performOperation(_ symbol: String) {
         if let operation = operations[symbol] {
             switch operation {
             case .constant(let value) :

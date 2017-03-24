@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         }
         
         if let mathematicalSymbol = sender.currentTitle {
-            model.performOpertaion(mathematicalSymbol)
+            model.performOperation(mathematicalSymbol)
         }
         
         if let result = model.result {

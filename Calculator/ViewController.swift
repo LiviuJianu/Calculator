@@ -39,8 +39,17 @@ class ViewController: UIViewController {
     
     @IBAction func performOperation(_ sender: UIButton) {
         if userIsInTheMiddleOfTyping {
-            model.setOperand(displayValue)
-            userIsInTheMiddleOfTyping = false
+            let textCurrentlyInDisplay = display.text!
+            let period = sender.currentTitle!
+            if (period == ".") {
+                if (textCurrentlyInDisplay.contains(".")) {
+                    return
+                }
+                display.text = textCurrentlyInDisplay + period
+            } else {
+                model.setOperand(displayValue)
+                userIsInTheMiddleOfTyping = false
+            }
         }
         
         if let mathematicalSymbol = sender.currentTitle {

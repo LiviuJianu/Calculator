@@ -23,12 +23,16 @@ struct CalculatorModel {
         [ "π" : Operation.constant(Double.pi),
           "e" : Operation.constant(M_E),
           "√"  : Operation.unaryOperation(sqrt),
+          "sin"  : Operation.unaryOperation(sin),
           "cos"  : Operation.unaryOperation(cos),
+          "x²": Operation.unaryOperation({ $0 * $0 }),
+          "x⁻" : Operation.unaryOperation({ pow($0, -1) }),
           "±" : Operation.unaryOperation({ -$0 }),
           "×" : Operation.binaryOperation({ $0 * $1 }),
           "÷" : Operation.binaryOperation({ $0 / $1 }),
           "+" : Operation.binaryOperation({ $0 + $1 }),
           "-" : Operation.binaryOperation({ $0 - $1 }),
+          "xⁿ" : Operation.binaryOperation({ pow($0, $1) }),
           "=" : Operation.equals
     ]
     

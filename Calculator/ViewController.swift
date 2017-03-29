@@ -40,12 +40,12 @@ class ViewController: UIViewController {
     @IBAction func performOperation(_ sender: UIButton) {
         if userIsInTheMiddleOfTyping {
             let textCurrentlyInDisplay = display.text!
-            let period = sender.currentTitle!
-            if (period == ".") {
+            let currentOperationValue = sender.currentTitle!
+            if (currentOperationValue == ".") {
                 if (textCurrentlyInDisplay.contains(".")) {
                     return
                 }
-                display.text = textCurrentlyInDisplay + period
+                display.text = textCurrentlyInDisplay + currentOperationValue
             } else {
                 model.setOperand(displayValue)
                 userIsInTheMiddleOfTyping = false

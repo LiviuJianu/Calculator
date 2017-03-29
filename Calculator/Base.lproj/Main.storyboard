@@ -42,7 +42,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="78.5" height="87"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="e">
+                                                        <state key="normal" title="√">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -91,7 +91,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="78.5" height="87.5"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="+">
+                                                        <state key="normal" title="±">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -102,7 +102,7 @@
                                                         <rect key="frame" x="88.5" y="0.0" width="78" height="87.5"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="-">
+                                                        <state key="normal" title="cos">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -113,7 +113,7 @@
                                                         <rect key="frame" x="176.5" y="0.0" width="78.5" height="87.5"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="%">
+                                                        <state key="normal" title="e">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -124,7 +124,7 @@
                                                         <rect key="frame" x="265" y="0.0" width="78" height="87.5"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="×">
+                                                        <state key="normal" title="π">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -140,7 +140,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="78.5" height="87"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="π">
+                                                        <state key="normal" title="×">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -189,7 +189,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="78.5" height="87"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="√">
+                                                        <state key="normal" title="÷">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -238,7 +238,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="78.5" height="87.5"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="cos">
+                                                        <state key="normal" title="-">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>
@@ -287,7 +287,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="78.5" height="87"/>
                                                         <color key="backgroundColor" red="0.91266757249999997" green="0.59580981730000004" blue="0.28233605620000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                                        <state key="normal" title="±">
+                                                        <state key="normal" title="+">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         </state>
                                                         <connections>

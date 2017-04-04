@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     
     @IBOutlet weak var display: UILabel!
+    @IBOutlet weak var descriptionDisplay: UILabel!
+    
     private var model = CalculatorModel()
     
     var userIsInTheMiddleOfTyping = false
@@ -59,6 +61,8 @@ class ViewController: UIViewController {
         if let result = model.result {
             displayValue = result
         }
+        
+        descriptionDisplay.text = model.publicDescription
     }
     
 }

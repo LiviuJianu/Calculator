@@ -11,6 +11,8 @@ import Foundation
 struct CalculatorModel {
     
     private var accumulator: Double?
+    private var resultIsPending: Bool?
+    private var description = ""
     
     private enum Operation {
         case constant(Double)
@@ -29,7 +31,7 @@ struct CalculatorModel {
           "x⁻¹" : Operation.unaryOperation({ pow($0, -1) }),
           "±" : Operation.unaryOperation({ -$0 }),
           "×" : Operation.binaryOperation({ $0 * $1 }),
-          "%" : Operation.binaryOperation({ $0 / $1 }),
+          "÷" : Operation.binaryOperation({ $0 / $1 }),
           "+" : Operation.binaryOperation({ $0 + $1 }),
           "-" : Operation.binaryOperation({ $0 - $1 }),
           "xⁿ" : Operation.binaryOperation({ pow($0, $1) }),
@@ -39,6 +41,22 @@ struct CalculatorModel {
     var result: Double? {
         get {
             return accumulator
+        }
+    }
+    
+    var  publicDescription: String {
+        get {
+            return description
+        }
+        set {
+            description = description + String(newValue)
+        }
+        
+    }
+    
+    var isBinaryOperationPending: Bool? {
+        get {
+            return resultIsPending
         }
     }
     
@@ -55,6 +73,9 @@ struct CalculatorModel {
     
     mutating func performOperation(_ symbol: String) {
         if let operation = operations[symbol] {
+            
+            description = description + "\(symbol)"
+
             switch operation {
             case .constant(let value) :
                 accumulator = value
@@ -87,6 +108,9 @@ struct CalculatorModel {
     
     mutating func setOperand(_ operand: Double) {
         accumulator = operand
+        description += "\(operand)"
+        print("Description value = \(description)")
+        
     }
     
     

@@ -107,7 +107,7 @@
 				TargetAttributes = {
 					1BD4BE381E82C81100074936 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = W8R7FP2S4Z;
+						DevelopmentTeam = 6KPQA28VX7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -273,10 +273,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W8R7FP2S4Z;
+				DEVELOPMENT_TEAM = 6KPQA28VX7;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SP.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = LJ.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,10 +286,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W8R7FP2S4Z;
+				DEVELOPMENT_TEAM = 6KPQA28VX7;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SP.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = LJ.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -314,6 +314,7 @@
 				1BD4BE4D1E82C81100074936 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
